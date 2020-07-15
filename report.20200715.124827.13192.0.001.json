@@ -3,10 +3,10 @@
   "header": {
     "event": "Allocation failed - JavaScript heap out of memory",
     "trigger": "FatalError",
-    "filename": "report.20200715.124131.21984.0.001.json",
-    "dumpEventTime": "2020-07-15T12:41:31Z",
-    "dumpEventTimeStamp": "1594788091958",
-    "processId": 21984,
+    "filename": "report.20200715.124827.13192.0.001.json",
+    "dumpEventTime": "2020-07-15T12:48:27Z",
+    "dumpEventTimeStamp": "1594788507313",
+    "processId": 13192,
     "cwd": "D:\\1mynotes\\ts-axios\\ts-axios",
     "commandLine": [
       "node",
@@ -116,10 +116,10 @@
     }
   ],
   "javascriptHeap": {
-    "totalMemory": 2151755776,
-    "totalCommittedMemory": 2151755776,
-    "usedMemory": 2135077336,
-    "availableMemory": 50669936,
+    "totalMemory": 2148610048,
+    "totalCommittedMemory": 2148610048,
+    "usedMemory": 2134180456,
+    "availableMemory": 57171496,
     "memoryLimit": 2197815296,
     "heapSpaces": {
       "read_only_space": {
@@ -130,24 +130,24 @@
         "available": 492264
       },
       "new_space": {
-        "memorySize": 4194304,
-        "committedMemory": 4194304,
-        "capacity": 2095904,
-        "used": 393728,
-        "available": 1702176
+        "memorySize": 2097152,
+        "committedMemory": 2097152,
+        "capacity": 1047952,
+        "used": 401128,
+        "available": 646824
       },
       "old_space": {
-        "memorySize": 1999233024,
-        "committedMemory": 1999233024,
-        "capacity": 1989372568,
-        "used": 1989052496,
-        "available": 320072
+        "memorySize": 1998184448,
+        "committedMemory": 1998184448,
+        "capacity": 1993938720,
+        "used": 1988159512,
+        "available": 5779208
       },
       "code_space": {
         "memorySize": 1212416,
         "committedMemory": 1212416,
-        "capacity": 917600,
-        "used": 917600,
+        "capacity": 906304,
+        "used": 906304,
         "available": 0
       },
       "map_space": {
@@ -174,19 +174,19 @@
       "new_large_object_space": {
         "memorySize": 0,
         "committedMemory": 0,
-        "capacity": 2095904,
+        "capacity": 1047952,
         "used": 0,
-        "available": 2095904
+        "available": 1047952
       }
     }
   },
   "resourceUsage": {
-    "userCpuSeconds": 85.484,
-    "kernelCpuSeconds": 2.64,
-    "cpuConsumptionPercent": 172.792,
-    "maxRss": 2277265408,
+    "userCpuSeconds": 77.281,
+    "kernelCpuSeconds": 2.406,
+    "cpuConsumptionPercent": 162.627,
+    "maxRss": 2273837056,
     "pageFaults": {
-      "IORequired": 885263,
+      "IORequired": 899795,
       "IONotRequired": 0
     },
     "fsActivity": {
@@ -419,7 +419,7 @@
     "npm_package_devDependencies__types_qs": "^6.5.3",
     "npm_package_engines_node=>": "6.0.0",
     "npm_package_files_0": "dist",
-    "npm_package_gitHead": "2ec79ebe63f2e33467a0629c001f9fb28a02f8cc",
+    "npm_package_gitHead": "695c74e6ae004ff0a3bd658bbf34bb73180e40cd",
     "npm_package_jest_collectCoverageFrom_0": "src/*.{js,ts}",
     "npm_package_jest_collectCoverageFrom_1": "src/**/*.{js,ts}",
     "npm_package_jest_coveragePathIgnorePatterns_0": "/node_modules/",
@@ -471,7 +471,7 @@
     "OneDriveConsumer": "C:\\Users\\10443\\OneDrive",
     "ORIGINAL_XDG_CURRENT_DESKTOP": "undefined",
     "OS": "Windows_NT",
-    "Path": "C:\\Users\\10443\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\npm-lifecycle\\node-gyp-bin;D:\\1mynotes\\ts-axios\\ts-axios\\node_modules\\.bin;C:\\Users\\10443\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\npm-lifecycle\\node-gyp-bin;D:\\1mynotes\\ts-axios\\ts-axios\\node_modules\\.bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\mysql\\mysql-8.0.18-winx64\\bin;D:\\HuiBian\\DEBUG;C:\\ProgramData\\chocolatey\\bin;D:\\git\\Git\\bin;D:\\openssl\\OpenSSL-Win64\\bin;D:\\matlab2018b\\runtime\\win64;D:\\matlab2018b\\bin;D:\\nodejs\\nodejs\\;D:\\mongodb\\bin;C:\\Program Files\\Microsoft SQL Server\\90\\Tools\\binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\90\\Tools\\binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\90\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\90\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 8\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\80\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn\\;D:\\java\\bin;D:\\java\\jre\\bin;C:\\Users\\10443\\AppData\\Local\\Yarn\\bin;D:\\python\\Scripts\\;D:\\python\\;C:\\Users\\10443\\AppData\\Local\\Microsoft\\WindowsApps;D:\\vscode\\Microsoft VS Code\\bin;C:\\Users\\10443\\AppData\\Roaming\\npm;D:\\bandzip\\;D:\\pycharm\\PyCharm Community Edition 2020.1.1\\bin;;D:\\fiddler;D:\\modelsim\\win64;D:\\modelsim\\modelsim\\win64",
+    "Path": "C:\\Users\\10443\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\npm-lifecycle\\node-gyp-bin;D:\\1mynotes\\ts-axios\\ts-axios\\node_modules\\.bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\mysql\\mysql-8.0.18-winx64\\bin;D:\\HuiBian\\DEBUG;C:\\ProgramData\\chocolatey\\bin;D:\\git\\Git\\bin;D:\\openssl\\OpenSSL-Win64\\bin;D:\\matlab2018b\\runtime\\win64;D:\\matlab2018b\\bin;D:\\nodejs\\nodejs\\;D:\\mongodb\\bin;C:\\Program Files\\Microsoft SQL Server\\90\\Tools\\binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\90\\Tools\\binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\90\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\90\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 8\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\80\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn\\;D:\\java\\bin;D:\\java\\jre\\bin;C:\\Users\\10443\\AppData\\Local\\Yarn\\bin;D:\\python\\Scripts\\;D:\\python\\;C:\\Users\\10443\\AppData\\Local\\Microsoft\\WindowsApps;D:\\vscode\\Microsoft VS Code\\bin;C:\\Users\\10443\\AppData\\Roaming\\npm;D:\\bandzip\\;D:\\pycharm\\PyCharm Community Edition 2020.1.1\\bin;;D:\\fiddler;D:\\modelsim\\win64;D:\\modelsim\\modelsim\\win64",
     "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC",
     "PROCESSOR_ARCHITECTURE": "AMD64",
     "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 142 Stepping 9, GenuineIntel",
@@ -517,15 +517,15 @@
     "C:\\Windows\\System32\\win32u.dll",
     "C:\\Windows\\System32\\GDI32.dll",
     "C:\\Windows\\System32\\gdi32full.dll",
-    "C:\\Windows\\SYSTEM32\\dbghelp.dll",
     "C:\\Windows\\System32\\msvcp_win.dll",
     "C:\\Windows\\System32\\ucrtbase.dll",
+    "C:\\Windows\\SYSTEM32\\dbghelp.dll",
     "C:\\Windows\\System32\\PSAPI.DLL",
     "C:\\Windows\\System32\\CRYPT32.dll",
     "C:\\Windows\\System32\\MSASN1.dll",
     "C:\\Windows\\System32\\bcrypt.dll",
-    "C:\\Windows\\SYSTEM32\\USERENV.dll",
     "C:\\Windows\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\Windows\\SYSTEM32\\USERENV.dll",
     "C:\\Windows\\System32\\profapi.dll",
     "C:\\Windows\\SYSTEM32\\WINMM.dll",
     "C:\\Windows\\SYSTEM32\\winmmbase.dll",
