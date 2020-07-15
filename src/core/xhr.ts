@@ -142,10 +142,17 @@ export default function xhr(config: AxiosRequestConfig): AxiosPromise {
        * pending状态转换到resolved状态，近而执行到这里
        */
       if (cancelToken) {
-        cancelToken.promise.then(reason => {
-          request.abort()
-          reject(reason)
-        })
+        cancelToken.promise
+          .then(reason => {
+            request.abort()
+            reject(reason)
+          })
+          .catch(
+            /* istanbul ignore next */
+            () => {
+              // do nothing
+            }
+          )
       }
     }
 
